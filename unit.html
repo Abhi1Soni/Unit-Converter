@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="unit.css">
+    </head>
+    <body>
+        <div class="container">
+           <div class="main-div" >
+               <h1>Metric/Imperial Unit Conversion</h1>
+               <input id="numb-el" type="number" value="10" min="0">
+               <button id="cnvrt-btn" onclick="convert()">Convert</button>
+          </div>
+            <div >
+                   <div class="box">
+                       <h3 class="convert">Length(Meter/Feet)</h3>
+                       <p id="length">10 meters = 32.810 feet | 10 feet = 3.048 meter</p>
+                   </div>
+                   <div class="box">
+                       <h3 class="convert">Volume(Liters/Gallons)</h3>
+                       <p id="volume">10 Liters = 2.640 Gallons | 10 Gallons = 37.879 Liters</p>
+                   </div>
+                   <div class="box">
+                        <h3 class="convert">Mass(Killograms/Pounds)</h3>
+                        <p id="mass">10 Killogram = 22.040 Pounds | 10 Pounds = 4.537 Killograms</p>
+                    </div>
+            </div>
+        </div>
+        <script src="unit.js"></script>
+    </body>
+</html>
